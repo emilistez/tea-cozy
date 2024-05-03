@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right:10px;
+    border-bottom: seashell solid 1px;
+    height: 69px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+
+.logo {
+    height: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+}
+
+.navlink {
+    margin-right:20px;
+    padding: 0px 20px;
+}
+
+.hero {
+    background-image: url("./img-mission-background.jpg");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+.hero-banner {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-month {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    width: 1000px;
+}
+
+.month-intro {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.gallery-image {
+    height: 200px;
+    width: 300px;
+
+}
+
+.container-locations {
+    margin-top: 64px;
+    background-image: url("./locations.jpg");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+.location-intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.location-item {
+    display: flex;
+    justify-content: center;
+}
+
+.location-box {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 40px;
+    mix-blend-mode:overlay;
+
+}
+
+footer {
+    padding: 20px;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
